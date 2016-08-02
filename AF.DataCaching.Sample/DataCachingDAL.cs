@@ -90,7 +90,8 @@ namespace AFDataCaching
 
             //Get cache object
             //it return default of object type
-            empList = AFCache.Caching.GetCache<List<DataCachingEntity>>(AFCache.Caching.CreateSortedList<String>());
+            var parameterList = AFCache.Caching.CreateSortedList<String>();
+            empList = AFCache.Caching.GetCache<List<DataCachingEntity>>(parameterList);
 
             //If cache is null then call database
             if (empList == default(List<DataCachingEntity>) || empList.Count == 0)
@@ -108,7 +109,7 @@ namespace AFDataCaching
 
                     reader.Close();
 
-                    AFCache.Caching.SaveCache<List<DataCachingEntity>>(empList, AFCache.Caching.CreateSortedList<String>(), 10);
+                    AFCache.Caching.SaveCache<List<DataCachingEntity>>(empList, parameterList, 10);
                 }
                 catch (Exception ex)
                 {
