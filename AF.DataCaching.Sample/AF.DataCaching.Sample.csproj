@@ -48,7 +48,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Architecture.Foundation.DataCaching, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AF.DataCaching.1.0.5\lib\Architecture.Foundation.DataCaching.dll</HintPath>
+      <HintPath>..\packages\AF.DataCaching.1.0.7\lib\Architecture.Foundation.DataCaching.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Architecture.Foundation.UtilityServices, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -128,7 +128,9 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Styles\Site.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataCaching.aspx.cs">
