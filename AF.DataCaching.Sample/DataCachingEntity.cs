@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AFDataCaching
+﻿namespace AFDataCaching
 {
     public sealed class DataCachingEntity
     {

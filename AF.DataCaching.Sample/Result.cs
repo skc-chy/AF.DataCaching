@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace AFDataCaching
+﻿namespace AFDataCaching
 {
     public class Result
     {

@@ -2,8 +2,6 @@
 using Architecture.Foundation.DataAccessor;
 using Architecture.Foundation.DataAccessor.SqlClient;
 using SampleApplication.Data.DataCachingDemo;
-using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
 
 namespace AFDataCaching

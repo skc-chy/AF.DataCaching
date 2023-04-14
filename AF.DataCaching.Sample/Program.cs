@@ -1,17 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-//using Microsoft.Extensions.Configuration;
-
-//Console.WriteLine("Hello, World!");
-
-//if (!File.Exists(Directory.GetCurrentDirectory() + @"\AFDataCaching.json"))
-//    throw new Exception("The file 'AFDataCaching.json' doesn't exist in current directory");
-
-//var afDataCachingSettings = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("AFDataCaching.json", optional: false, reloadOnChange: true);
-
-//IConfigurationRoot config = afDataCachingSettings.Build();
-
-//var connectionString = config.GetSection("AFDataCachingSection");
-//Console.ReadKey();
 
 using AF.DataAccessor.Sample;
 
