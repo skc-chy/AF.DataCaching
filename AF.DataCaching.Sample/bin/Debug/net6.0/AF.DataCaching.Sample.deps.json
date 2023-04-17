@@ -8,13 +8,13 @@
     ".NETCoreApp,Version=v6.0": {
       "AF.DataCaching.Sample/1.0.0": {
         "dependencies": {
-          "AF.DataCaching": "2.0.0"
+          "AF.DataCaching": "2.0.2"
         },
         "runtime": {
           "AF.DataCaching.Sample.dll": {}
         }
       },
-      "AF.DataAccessor/2.0.1": {
+      "AF.DataAccessor/2.0.2": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
@@ -29,10 +29,10 @@
           }
         }
       },
-      "AF.DataCaching/2.0.0": {
+      "AF.DataCaching/2.0.2": {
         "dependencies": {
-          "AF.DataAccessor": "2.0.1",
-          "AF.UtilityServices": "2.0.2"
+          "AF.DataAccessor": "2.0.2",
+          "AF.UtilityServices": "2.0.3"
         },
         "runtime": {
           "lib/net6.0/Architecture.Core.Foundation.DataCaching.dll": {
@@ -41,7 +41,7 @@
           }
         }
       },
-      "AF.UtilityServices/2.0.2": {
+      "AF.UtilityServices/2.0.3": {
         "runtime": {
           "lib/net6.0/Architecture.Core.Foundation.UtilityServices.dll": {
             "assemblyVersion": "1.0.4.0",
@@ -446,26 +446,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AF.DataAccessor/2.0.1": {
+    "AF.DataAccessor/2.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8HYZcivl+RX9/52voqsDiamAa7vj42wVdN4zu0Rx65D+GbiY6Yw8IvhUjN0XG+DNbt+GMm76PxXH2JXJdoGciA==",
-      "path": "af.dataaccessor/2.0.1",
-      "hashPath": "af.dataaccessor.2.0.1.nupkg.sha512"
+      "sha512": "sha512-Q9oUbI9XYLG1C+eUTIjpw2wHe/G31wt3zFLKodLJyGRvRXT8sdH+SNvnddNrHgnoDtxqfbmrL14Aj+SG6JX4ug==",
+      "path": "af.dataaccessor/2.0.2",
+      "hashPath": "af.dataaccessor.2.0.2.nupkg.sha512"
     },
-    "AF.DataCaching/2.0.0": {
+    "AF.DataCaching/2.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MsuP02s8I3mo1KxF6xORzMT2SEqoE5NU38KB31faOwCgOtONUzjkGnOkJvQ00+AyjffhcbFeyCbzPQz4x9Tj7g==",
-      "path": "af.datacaching/2.0.0",
-      "hashPath": "af.datacaching.2.0.0.nupkg.sha512"
+      "sha512": "sha512-XkJloVws7JqziOSFFvkTHxJ6aaWoksit9KgLd3RtWWIUrTI868cixwfnpDZM+Z/qFAoP8sSAS31q5O4xQBxMQw==",
+      "path": "af.datacaching/2.0.2",
+      "hashPath": "af.datacaching.2.0.2.nupkg.sha512"
     },
-    "AF.UtilityServices/2.0.2": {
+    "AF.UtilityServices/2.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XXdYH7IzvxnNR8fPyZheZaU9Z1YG6IF6V59axuIt5jDt1BOTsVhx3bUcdWbKjiPm4z3WH5XilctWp4V9+1BE0A==",
-      "path": "af.utilityservices/2.0.2",
-      "hashPath": "af.utilityservices.2.0.2.nupkg.sha512"
+      "sha512": "sha512-KAm3uTJCka//WQq/u5QIKQA8EN36SNf1r6xiS9B4Mbkrbt+yD1UeW+/7VgjNOBh2mkC0jLYBsFFp5OFidpAD1w==",
+      "path": "af.utilityservices/2.0.3",
+      "hashPath": "af.utilityservices.2.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
       "type": "package",

@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AF.DataCaching" Version="2.0.0" />
+    <PackageReference Include="AF.DataCaching" Version="2.0.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,6 +45,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="C:\Users\SukantaChoudhurySIDG\.nuget\packages\af.datacaching\2.0.0\contentFiles\any\net6.0\AFDataCaching.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\SukantaChoudhurySIDG\.nuget\packages\af.datacaching\2.0.2\contentFiles\any\net6.0\AFDataAccessor.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\SukantaChoudhurySIDG\.nuget\packages\af.datacaching\2.0.2\contentFiles\any\net6.0\AFDataCaching.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

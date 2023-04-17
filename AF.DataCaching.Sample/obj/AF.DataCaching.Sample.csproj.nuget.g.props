@@ -14,25 +14,33 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Content Include="$(NuGetPackageRoot)af.datacaching\2.0.0\contentFiles\any\net6.0\AFDataAccessor.json" Condition="Exists('$(NuGetPackageRoot)af.datacaching\2.0.0\contentFiles\any\net6.0\AFDataAccessor.json')">
+    <Content Include="$(NuGetPackageRoot)af.datacaching\2.0.2\contentFiles\any\net6.0\AFDataAccessor.json" Condition="Exists('$(NuGetPackageRoot)af.datacaching\2.0.2\contentFiles\any\net6.0\AFDataAccessor.json')">
       <NuGetPackageId>AF.DataCaching</NuGetPackageId>
-      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetPackageVersion>2.0.2</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Pack>false</Pack>
       <Private>False</Private>
       <Link>AFDataAccessor.json</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)af.datacaching\2.0.0\contentFiles\any\net6.0\AFDataCaching.json" Condition="Exists('$(NuGetPackageRoot)af.datacaching\2.0.0\contentFiles\any\net6.0\AFDataCaching.json')">
+    <Content Include="$(NuGetPackageRoot)af.datacaching\2.0.2\contentFiles\any\net6.0\AFDataCaching.json" Condition="Exists('$(NuGetPackageRoot)af.datacaching\2.0.2\contentFiles\any\net6.0\AFDataCaching.json')">
       <NuGetPackageId>AF.DataCaching</NuGetPackageId>
-      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetPackageVersion>2.0.2</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Pack>false</Pack>
       <Private>False</Private>
       <Link>AFDataCaching.json</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)af.datacaching\2.0.0\contentFiles\any\net6.0\Icon.ico" Condition="Exists('$(NuGetPackageRoot)af.datacaching\2.0.0\contentFiles\any\net6.0\Icon.ico')">
+    <Content Include="$(NuGetPackageRoot)af.datacaching\2.0.2\contentFiles\any\net6.0\DBScript\DataCachingTablesAndStoreProc.sql" Condition="Exists('$(NuGetPackageRoot)af.datacaching\2.0.2\contentFiles\any\net6.0\DBScript\DataCachingTablesAndStoreProc.sql')">
       <NuGetPackageId>AF.DataCaching</NuGetPackageId>
-      <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
+      <NuGetPackageVersion>2.0.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>DBScript\DataCachingTablesAndStoreProc.sql</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)af.datacaching\2.0.2\contentFiles\any\net6.0\Icon.ico" Condition="Exists('$(NuGetPackageRoot)af.datacaching\2.0.2\contentFiles\any\net6.0\Icon.ico')">
+      <NuGetPackageId>AF.DataCaching</NuGetPackageId>
+      <NuGetPackageVersion>2.0.2</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Pack>false</Pack>
       <Private>False</Private>

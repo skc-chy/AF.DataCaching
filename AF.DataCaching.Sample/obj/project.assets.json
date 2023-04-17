@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AF.DataAccessor/2.0.1": {
+      "AF.DataAccessor/2.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "7.0.0",
@@ -25,11 +25,11 @@
           }
         }
       },
-      "AF.DataCaching/2.0.0": {
+      "AF.DataCaching/2.0.2": {
         "type": "package",
         "dependencies": {
-          "AF.DataAccessor": "2.0.1",
-          "AF.UtilityServices": "2.0.2"
+          "AF.DataAccessor": "2.0.2",
+          "AF.UtilityServices": "2.0.3"
         },
         "compile": {
           "lib/net6.0/Architecture.Core.Foundation.DataCaching.dll": {}
@@ -48,6 +48,11 @@
             "codeLanguage": "any",
             "copyToOutput": false
           },
+          "contentFiles/any/net6.0/DBScript/DataCachingTablesAndStoreProc.sql": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
           "contentFiles/any/net6.0/Icon.ico": {
             "buildAction": "Content",
             "codeLanguage": "any",
@@ -55,7 +60,7 @@
           }
         }
       },
-      "AF.UtilityServices/2.0.2": {
+      "AF.UtilityServices/2.0.3": {
         "type": "package",
         "compile": {
           "lib/net6.0/Architecture.Core.Foundation.UtilityServices.dll": {}
@@ -747,16 +752,16 @@
     }
   },
   "libraries": {
-    "AF.DataAccessor/2.0.1": {
-      "sha512": "8HYZcivl+RX9/52voqsDiamAa7vj42wVdN4zu0Rx65D+GbiY6Yw8IvhUjN0XG+DNbt+GMm76PxXH2JXJdoGciA==",
+    "AF.DataAccessor/2.0.2": {
+      "sha512": "Q9oUbI9XYLG1C+eUTIjpw2wHe/G31wt3zFLKodLJyGRvRXT8sdH+SNvnddNrHgnoDtxqfbmrL14Aj+SG6JX4ug==",
       "type": "package",
-      "path": "af.dataaccessor/2.0.1",
+      "path": "af.dataaccessor/2.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "128.png",
         "README.md",
-        "af.dataaccessor.2.0.1.nupkg.sha512",
+        "af.dataaccessor.2.0.2.nupkg.sha512",
         "af.dataaccessor.nuspec",
         "content/AFDataAccessor.json",
         "content/Icons/Icon.ico",
@@ -765,36 +770,38 @@
         "lib/net6.0/Architecture.Core.Foundation.DataAccessor.dll"
       ]
     },
-    "AF.DataCaching/2.0.0": {
-      "sha512": "MsuP02s8I3mo1KxF6xORzMT2SEqoE5NU38KB31faOwCgOtONUzjkGnOkJvQ00+AyjffhcbFeyCbzPQz4x9Tj7g==",
+    "AF.DataCaching/2.0.2": {
+      "sha512": "XkJloVws7JqziOSFFvkTHxJ6aaWoksit9KgLd3RtWWIUrTI868cixwfnpDZM+Z/qFAoP8sSAS31q5O4xQBxMQw==",
       "type": "package",
-      "path": "af.datacaching/2.0.0",
+      "path": "af.datacaching/2.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "128.png",
         "README.md",
-        "af.datacaching.2.0.0.nupkg.sha512",
+        "af.datacaching.2.0.2.nupkg.sha512",
         "af.datacaching.nuspec",
         "content/AFDataAccessor.json",
         "content/AFDataCaching.json",
+        "content/DBScript/DataCachingTablesAndStoreProc.sql",
         "content/Icon.ico",
         "contentFiles/any/net6.0/AFDataAccessor.json",
         "contentFiles/any/net6.0/AFDataCaching.json",
+        "contentFiles/any/net6.0/DBScript/DataCachingTablesAndStoreProc.sql",
         "contentFiles/any/net6.0/Icon.ico",
         "lib/net6.0/Architecture.Core.Foundation.DataCaching.dll"
       ]
     },
-    "AF.UtilityServices/2.0.2": {
-      "sha512": "XXdYH7IzvxnNR8fPyZheZaU9Z1YG6IF6V59axuIt5jDt1BOTsVhx3bUcdWbKjiPm4z3WH5XilctWp4V9+1BE0A==",
+    "AF.UtilityServices/2.0.3": {
+      "sha512": "KAm3uTJCka//WQq/u5QIKQA8EN36SNf1r6xiS9B4Mbkrbt+yD1UeW+/7VgjNOBh2mkC0jLYBsFFp5OFidpAD1w==",
       "type": "package",
-      "path": "af.utilityservices/2.0.2",
+      "path": "af.utilityservices/2.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "128.png",
         "README.md",
-        "af.utilityservices.2.0.2.nupkg.sha512",
+        "af.utilityservices.2.0.3.nupkg.sha512",
         "af.utilityservices.nuspec",
         "content/128.png",
         "content/Icon.ico",
@@ -2517,7 +2524,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AF.DataCaching >= 2.0.0"
+      "AF.DataCaching >= 2.0.2"
     ]
   },
   "packageFolders": {
@@ -2567,7 +2574,7 @@
         "dependencies": {
           "AF.DataCaching": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[2.0.2, )"
           }
         },
         "imports": [
